@@ -1,8 +1,7 @@
 const width = 20
-// import './stylesheets/style.scss'
 const squares = []
 
-
+// Init creates grid, attached event listeners to start/stop/play buttons.
 function init() {
   const startBtn = document.querySelector('#startBtn')
   const stopBtn = document.querySelector('#stopBtn')
@@ -20,6 +19,7 @@ function init() {
     square.innerHTML = i
     grid.append(square)
   }
+  return squares
 }
 
 function play() {
@@ -32,4 +32,7 @@ function reset() {
   console.log('clicked reset')
 }
 
+
 window.addEventListener('DOMContentLoaded', init)
+
+//UPDATES FOR CLIFF:
