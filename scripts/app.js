@@ -1,4 +1,5 @@
 const width = 20
+// import './stylesheets/style.scss'
 const squares = []
 
 function init() {

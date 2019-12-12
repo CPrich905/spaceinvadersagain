@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "css-loader": "^3.3.0",
+    "jest": "^24.9.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.1"
+  }
+}
