@@ -26,3 +26,7 @@ div.grid-item {
   height: 25px;
   border: 1px solid black;
 }
+
+div.grid-item.player {
+  background-color: blue;
+}
